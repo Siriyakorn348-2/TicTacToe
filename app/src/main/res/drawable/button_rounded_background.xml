@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="30dp" /> <!-- รัศมีของโค้ง ให้แก้ไขตามต้องการ -->
+    <solid android:color="@color/lavender" /> <!-- สีพื้นหลัง -->
+</shape>

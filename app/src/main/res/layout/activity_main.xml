@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/xoxx"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:background="@color/white"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIC  TAC TOE"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/lavender"/>
+
+
+
+            <Button
+                android:id="@+id/play_offline_btn"
+                style="@style/Widget.Material3.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_rounded_background"
+                android:text="Play Offline"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+
+                />
+
+            <Button
+                android:id="@+id/create_online_game_btn"
+                style="@style/Widget.Material3.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_rounded_background"
+                android:text="Create Game Online"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:gravity="center"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Or"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:padding="8dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/game_id_input"
+
+                android:layout_marginTop="40dp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:inputType="number"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:hint="Enter game Id"/>
+
+            <Button
+                android:id="@+id/join_online_btn"
+                style="@style/Widget.Material3.Button.Icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_rounded_background"
+                android:gravity="center"
+                android:text="Join"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589691034595",
+    "project_id": "tic-tac-3b3fb",
+    "storage_bucket": "tic-tac-3b3fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589691034595:android:816c5ad5d84ffc4e2c5ed6",
+        "android_client_info": {
+          "package_name": "com.neatroots.tictac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7jgGkFXiUEjaTvaJyelmYrh7juBE8zlM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
